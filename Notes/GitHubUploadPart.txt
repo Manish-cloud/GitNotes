@@ -90,3 +90,15 @@ Branch 'flaskIntegration' set up to track remote branch 'flaskIntegration' from 
 
 Manish@LAPTOP-JNE4VIQD MINGW64 /e/Git (flaskIntegration)
 $
+
+
+
+
+
+
+git push -u origin master
+	||
+	\/
+git push
+
+git clone url [folderName]
