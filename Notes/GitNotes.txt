@@ -1,0 +1,54 @@
+$ git config --global user.name Manish-cloud
+$ git config --global user.email manishcloud9292@gmail.com
+$ git config --global user.name
+$ git config --global user.email
+$ git init
+$ ls -lart
+$ git status
+$ git add file1.txt
+$ git commit
+$ git add .
+$ git add -A
+
+$ git checkout file1.txt	//restores to last commit
+$ git checkout -f		//restores all file to last commit
+
+$ git log		//Shows log to commit
+$ git log -p -1
+$ git diff 		//Compares working tree with staging area 
+$ git diff --staged	// Compares staging area with last commit
+$ git checkout -f	//restores
+$ git diff - f		
+
+$ git commit -a -m "skipped staging area and fixed"
+
+$ git rm --cached file5.txt	//Removes file from commited part but not from computer system
+$ git rm --file5.txt		//Delete file from commit and computer system
+
+$ git status -s 		// gives short summary of status
+				(Part1 : stagging area , Part2 : working tree)
+
+$ git branch feature1		// creating branch
+$ branch			// list branches
+$ git checkout feature1		// change to feature1 branch
+$ git merge feature1		(from master side)
+$ git checkout -b flaskIntegration	//creating and changing to branch flaskIntegration
+
+--------------------------------
+mylogs.log			|	// To ignore file in same folder as well as sub folder where gitignore is present
+/mylogs.log			|	// To ignore file in same folder where gitignore is present
+*.log				|	// To ignore all .ext files
+folderName/			|	// To ignore folder
+				|
+--------------------------------
+
+----------------------------------------------------------------------------
+(1)Git init 	:: Initialise empty Git repository.
+(2)Git add  	:: Add file/files to stagging area.
+(3)Git commit	:: Save file/files present in stagging area as checkpoints.
+(4)Git status	:: Show status of git repository.
+(5)Git checkout :: Undo changes(update content/deleted file)
+(6)Git diff 	:: find differnece between file
+(7)Git rm	:: deal with file removal
+(8)Git ignore
+(9)Git branch
